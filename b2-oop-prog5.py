@@ -1,3 +1,2 @@
-# Prog05: Print the remainder
-a, b = map(float, input("Enter two numbers: ").split())
-print(a % b)
+a = float(input()); b = float(input())
+if b: print(a % b)

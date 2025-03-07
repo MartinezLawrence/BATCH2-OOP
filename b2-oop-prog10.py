@@ -1,4 +1,3 @@
-# Prog10: Print all numbers between two input numbers
-a, b = map(int, input("Enter two numbers: ").split())
-for i in range(min(a, b) + 1, max(a, b)):
-    print(i, end=" ")
+a = int(input()); b = int(input())
+if a > b: a, b = b, a
+for i in range(a + 1, b): print(i)

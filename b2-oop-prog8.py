@@ -1,5 +1,4 @@
-# Prog08: Print odd numbers from 0 to 100 (using while)
-i = 1
+i = 0
 while i <= 100:
-    print(i, end=" ")
-    i += 2
+    if i % 2: print(i)
+    i += 1

@@ -1,3 +1,2 @@
-# Prog01: Print the smaller number
-a, b = map(float, input("Enter two numbers: ").split())
+a = float(input()); b = float(input())
 print(min(a, b))

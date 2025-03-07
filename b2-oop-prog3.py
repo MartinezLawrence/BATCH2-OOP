@@ -1,3 +1,2 @@
-# Prog03: Print the difference of two numbers
-a, b = map(float, input("Enter two numbers: ").split())
-print(a - b)
+a = float(input()); b = float(input())
+print(abs(a - b))
